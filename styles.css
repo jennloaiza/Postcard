@@ -15,12 +15,14 @@ body {
     }
 
 .title {
-    padding: 20px 0px 0px 10px;
+    padding-top: 30px;
+    font-size: 35px;
 }
 
 /* Create two equal columns that floats next to each other */
 .column {
     font-family: 'Handlee', cursive;
+    font-size: 17px;
   float: left;
   width: 50%;
   padding: 30px 10px;
@@ -35,10 +37,13 @@ body {
   } */
 
   .geek{
-  position: absolute;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px; 
   top: 8px;
   right: 16px;
   width: 60px;
+  
   }
 input[type=text] {
   width: 100%;
@@ -57,7 +62,8 @@ input[type=text] {
   text-decoration: none;
   display: block;
   font-size: 16px;
-  margin: 0 auto;
+  margin-left: -95px;
+  margin-top: 30px;
   cursor: pointer;
   font-family: 'Handlee', cursive;
 }
